@@ -1,9 +1,10 @@
+<?php include_once "./api/db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Mentor Bootstrap Template</title>
+  <title>卓越科技大學</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
@@ -27,7 +28,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php">Mentor</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">卓越科技大學</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -62,7 +63,12 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="courses.html" class="get-started-btn">Get Started</a>
+      <a href="./courses.php" class="get-started-btn">Get Started</a>
+
+      <div>
+      <span class="t m-5">進站總人數 :
+						<?= $Total->find(1)['total']; ?></span>
+      </div>
 
     </div>
   </header><!-- End Header -->
