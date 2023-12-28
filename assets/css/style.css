@@ -139,9 +139,23 @@ h6 {
   color: #846157;
 }
 
-#header .logo img {
-  max-height: 40px;
+.log-people{
+
+  font-size: 14px;
+  color: #846157;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+
 }
+
+/* #header .logo img {
+  max-height: 40px;
+} */
 
 /**
 * Get Startet Button 
@@ -201,7 +215,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #37423b;
+  color: #846157;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -217,7 +231,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #846157;
+  color: #E6A11E;
 }
 
 .navbar .dropdown ul {
