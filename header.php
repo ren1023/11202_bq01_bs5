@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>卓越科技大學</title>
+  <title>Taishan Coffee</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
@@ -28,16 +28,16 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php">卓越科技大學</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">泰山咖啡學院</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="./index.php">Home</a></li>
-          <li><a href="./about.php">About</a></li>
-          <li><a href="./courses.php">Courses</a></li>
-          <li><a href="./trainers.php">Trainers</a></li>
+          <li><a class="active" href="./index.php">首頁</a></li>
+          <li><a href="about.php">最新消息區</a></li>
+          <li><a href="index.php#popular-courses-link">Courses</a></li>
+          <li><a href="index.php#trainers-link">Trainers</a></li>
           <li><a href="./events.php">Events</a></li>
           <li><a href="./pricing.php">Pricing</a></li>
 
@@ -65,9 +65,9 @@
 
       <a href="./courses.php" class="get-started-btn">Get Started</a>
 
-      <div>
-      <span class="t m-5">進站總人數 :
-						<?= $Total->find(1)['total']; ?></span>
+      <div class="col-1 mr-5 text-center ">
+      <span>瀏覽總人數 <?= $Total->find(1)['total']; ?>
+      </span>
       </div>
 
     </div>
