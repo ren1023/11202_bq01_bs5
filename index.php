@@ -2,7 +2,7 @@
 <?php include_once "./header.php"?>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-content-center align-items-center">
+  <section id="hero" style=" background: url('./img/01B01.jpg') top center;"  class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>Wlcome<br>Leading Your Coffee Life</h1>
       <!-- <h2>We are team of talented designers making websites with Bootstrap</h2> -->
