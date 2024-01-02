@@ -6,7 +6,7 @@ include_once "./header.php";
   <!-- ======= Breadcrumbs ======= -->
   <div class="breadcrumbs" data-aos="fade-in">
     <div class="container">
-      <h2>學院環境介紹</h2>
+      <h2>學院映像照</h2>
       <!-- <p>test </p> -->
     </div>
   </div><!-- End Breadcrumbs -->
