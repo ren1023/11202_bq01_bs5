@@ -415,8 +415,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+<<<<<<< HEAD
   height: 80vh;
   /* background: url("../img/hero-coffee.jpg") top center; */
+=======
+  height: 85vh;
+ 
+>>>>>>> cdddfa74a71c2c660e7aaefcf1662526d5831f48
   /* background:  top center; */
   
   position: relative;
