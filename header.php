@@ -63,7 +63,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="./courses.php" class="get-started-btn">Get Started</a>
+      <a href="./front/login.php" class="get-started-btn">管理登入</a>
 
       <div class="col-1 mr-5 text-center ">
       <span>瀏覽總人數 <?= $Total->find(1)['total']; ?>
