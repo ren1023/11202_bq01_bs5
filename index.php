@@ -2,18 +2,13 @@
 <?php include_once "./header.php"?>
 
   <!-- ======= Hero Section ======= -->
-<<<<<<< HEAD
   <?php
 		$title = $Title->find(['sh' => 1]);
     // dd($title);
     ?>
-  <section id="hero" style="background: url('./img/<?= $title['img']; ?>') top center;background-size: cover;" class="d-flex justify-content-center align-items-center">
-=======
-  <section id="hero" style=" background: url('./img/01B01.jpg') top center;"  class="d-flex justify-content-center align-items-center">
->>>>>>> cdddfa74a71c2c660e7aaefcf1662526d5831f48
+  <section id="hero" style="background: url('./img/<?= $title['img']; ?>') top center;" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>Wlcome<br>Leading Your Coffee Life</h1>
-      <!-- <h2>We are team of talented designers making websites with Bootstrap</h2> -->
       <a href="./courses.php" class="btn-get-started">Get Started</a>
     </div>
   </section>  
