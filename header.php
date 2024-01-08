@@ -36,7 +36,8 @@
         <ul>
           <li><a class="active" href="./index.php">首頁</a></li>
           <li><a href="env.php">學院環境介紹</a></li>
-          <li><a href="index.php#popular-courses-link">Courses</a></li>
+          <!-- <li><a href="index.php#popular-courses-link">Courses</a></li> -->
+          <li><a href="./courses.php">Courses</a></li>
           <li><a href="index.php#trainers-link">Trainers</a></li>
           <li><a href="./events.php">Events</a></li>
           <li><a href="./pricing.php">Pricing</a></li>
