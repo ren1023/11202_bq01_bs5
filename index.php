@@ -6,9 +6,9 @@
 		$title = $Title->find(['sh' => 1]);
     // dd($title);
     ?>
-  <section id="hero" style="background: url('./img/<?= $title['img']; ?>') top center;" class="d-flex justify-content-center align-items-center">
+  <section id="hero" style="background: url('./img/<?= $title['img']; ?>') top center;background-size: cover;" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Wlcome<br>Leading Your Coffee Life</h1>
+      <h1>Welcome<br>Leading Your Coffee Life</h1>
       <a href="./courses.php" class="btn-get-started">Get Started</a>
     </div>
   </section>  
